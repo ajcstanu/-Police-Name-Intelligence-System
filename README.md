@@ -78,7 +78,7 @@ Queries typed in Devanagari are automatically transliterated before matching aga
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
