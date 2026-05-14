@@ -1,4 +1,4 @@
-# 🔏 Police Name Intelligence System
+#  Police Name Intelligence System
 
 A React-based forensic name matching tool designed for Indian law enforcement, enabling accurate identification of individuals across **Hindi (Devanagari)** and **English** scripts using multiple fuzzy matching algorithms and AI-powered analysis.
 
@@ -10,7 +10,7 @@ Police records in India often contain names spelled inconsistently due to transl
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Multi-Algorithm Fuzzy Matching** — Combines five algorithms for robust name similarity scoring
 - **Hindi ↔ English Transliteration** — Automatically converts Devanagari input to Roman phonetic form for cross-script search
@@ -23,7 +23,7 @@ Police records in India often contain names spelled inconsistently due to transl
 
 ---
 
-## 🧠 Matching Algorithms
+##  Matching Algorithms
 
 | Algorithm | Weight | Purpose |
 |---|---|---|
@@ -38,7 +38,7 @@ The final score is a **weighted combination** of all six metrics. Scores ≥ thr
 
 ---
 
-## 🌐 Hindi Transliteration
+##  Hindi Transliteration
 
 The system includes a custom Devanagari → Roman phonetic map covering:
 
@@ -52,7 +52,7 @@ Queries typed in Devanagari are automatically transliterated before matching aga
 
 ---
 
-## 🖥️ UI Tabs
+##  UI Tabs
 
 ### 🔍 Search
 - Enter a name in English or Hindi script
@@ -61,16 +61,16 @@ Queries typed in Devanagari are automatically transliterated before matching aga
 - View match scores with per-algorithm breakdown
 - Click **AI Analysis** on any result for a Claude-powered explanation
 
-### 🗄️ Database
+###  Database
 - Browse all records in a tabular view
 - Add new records with full metadata (name, Hindi name, case ID, role, DOB, address)
 
-### 📊 Analytics
+###  Analytics
 - Algorithm performance comparison (bar chart)
 - Common Hindi name variation examples
 - Transliteration reference examples
 
-### 📋 Guidelines
+###  Guidelines
 - Data entry standards for bilingual records
 - Search best practices for investigators
 - Common transliteration mistakes to avoid
@@ -123,7 +123,7 @@ The entire application is a **single-file React component** with no external UI 
 
 ---
 
-## 🔒 Data & Privacy
+##  Data & Privacy
 
 - The mock database (`RECORDS`) contains fictional test data for Delhi-based cases.
 - No data is persisted between sessions; all records are stored in React state.
