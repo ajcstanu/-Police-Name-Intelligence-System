@@ -4,7 +4,7 @@ A React-based forensic name matching tool designed for Indian law enforcement, e
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Police records in India often contain names spelled inconsistently due to transliteration differences, regional dialects, or data entry errors (e.g., *"Suresh"* vs *"Sursh"* vs *"Suresha"*). This system addresses that challenge by combining phonetic, edit-distance, and n-gram algorithms with real-time Hindi-to-English transliteration, enabling reliable name lookups across script variations.
 
